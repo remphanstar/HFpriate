@@ -5,7 +5,7 @@ import subprocess
 import argparse
 from pathlib import Path
 
-from platform import detect_platform, get_platform_config
+from platform_detect import detect_platform, get_platform_config
 from space_handler import clone_space, process_space
 from gpu_setup import verify_gpu, setup_environment
 
